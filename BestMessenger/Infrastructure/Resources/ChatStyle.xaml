@@ -1,0 +1,129 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="ListViewItem" x:Key="ChatItem">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <!--<Rectangle Fill="Red" Grid.Column="1">
+                            
+                        </Rectangle>-->
+                        <!--<Border>-->
+
+                        <Border Margin="10,10,10,5" 
+                                CornerRadius="15"
+                                Background="#A4A4A4"
+                                Padding="15"
+                                >
+                            <StackPanel  Orientation="Horizontal">
+                                <Ellipse Width="45" Height="45" Margin="10,0,10,0">
+                                    <!--Sender.IsMain DataTrigger  true setter ImageSource = -->
+                                    <Ellipse.Fill>
+                                        <ImageBrush ImageSource="{Binding Sender.PhotoSource}" ></ImageBrush>
+                                    </Ellipse.Fill>
+
+                                    <!--<Ellipse.Style>
+                                    <Style TargetType="Ellipse">
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Receiver.IsMain}" Value="true">
+                                                <Setter Property="Ellipse.Fill">
+                                                    <Setter.Value>
+                                                        <ImageBrush ImageSource="{Binding Receiver.PhotoSource}"></ImageBrush>
+                                                    </Setter.Value>
+                                                </Setter>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Ellipse.Style>-->
+
+                                </Ellipse>
+                                <StackPanel Orientation="Vertical">
+                                    <Label HorizontalAlignment="Stretch"
+                                           VerticalAlignment="Top"
+                                           Content="{Binding Sender.FirstName}"
+                                           Foreground="White"
+                                           FontSize="15"
+                                           >
+
+                                        <!--<Label.Style>
+                                        <Style TargetType="Label">
+                                            <Style.Triggers>
+                                                <MultiDataTrigger>
+                                                    <MultiDataTrigger.Conditions>
+                                                        <Condition Binding="{Binding Receiver.IsMain}" Value="true"></Condition>
+                                                    </MultiDataTrigger.Conditions>
+                                                    <Setter Property="Label.Content" Value="{Binding Receiver.FirstName}"></Setter>
+                                                </MultiDataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Label.Style>-->
+
+                                    </Label>
+
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{Binding Text}"
+                                               Foreground="White"
+                                               FontWeight="Bold"
+                                               FontSize="12"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap"
+                                               MaxWidth="170"
+                                                >
+                                        </TextBlock>
+                                        <Label Content="{Binding DateOfSend}"
+                                           Foreground="LightGray"
+                                           FontSize="8"
+                                           FontWeight="SemiBold"
+                                           HorizontalAlignment="Right"
+                                            >
+                                        </Label>
+
+
+                                    </StackPanel>
+
+                                </StackPanel>
+
+                                <!--<StackPanel.Style>
+                                    <Style TargetType="{x:Type StackPanel}">
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Sender.IsMain}" Value="true">
+                                                <Setter Property="Grid.Column" Value="1" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </StackPanel.Style>-->
+                            </StackPanel>
+                            
+                            <Border.Style>
+                                    <Style TargetType="{x:Type Border}">
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Sender.IsMain}" Value="true">
+                                                <Setter Property="Grid.Column" Value="1" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                            </Border.Style>
+                        </Border>
+                        
+                            <!--<Border.Style>
+                                <Style TargetType="Border">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding Sender.IsMain}" Value="true">
+                                            <Setter Property="Grid.Column" Value="1" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                               
+                            </Border.Style>
+                        </Border>-->
+                    </Grid>
+                  
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

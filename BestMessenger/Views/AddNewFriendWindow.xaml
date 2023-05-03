@@ -1,0 +1,59 @@
+﻿<Window x:Class="BestMessenger.Views.AddNewFriendWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        xmlns:vm="clr-namespace:BestMessenger.ViewModels"
+        xmlns:local="clr-namespace:BestMessenger.Views"
+        mc:Ignorable="d"
+        Title="AddNewFriendWindow" 
+        Height="600" Width="800"
+        AllowsTransparency="False"
+        Background="#212121"
+        WindowStyle="None"
+        ResizeMode="CanResizeWithGrip"
+        >
+    <Window.DataContext>
+        <vm:AddNewFriendViewModel x:Name="AddNewFriendViewModel"></vm:AddNewFriendViewModel>
+    </Window.DataContext>
+    <DockPanel>
+        <Border Background="Transparent" DockPanel.Dock="Top">
+            <Grid HorizontalAlignment="Stretch">
+                <Label Content="Best Messenger"
+                       Foreground="White"
+                       FontWeight="Bold"
+                       />
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Right"
+                            >
+                    <Button Style="{StaticResource ResourceKey=MinimizeBtnStyle}"
+                            Command="{Binding WindowMinimizeCommand}"
+                            />
+                    <Button Style="{StaticResource ResourceKey=MaximizeBtnStyle}"
+                            Command="{Binding WindowMaximizeCommand}"
+                            />
+                    <Button Style="{StaticResource ResourceKey=CloseWindowBtnStyle}"
+                            Command="{Binding CloseWindowCommand}"
+                            />
+                </StackPanel>
+            </Grid>
+        </Border>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Application">
+                <MenuItem Header="Close">
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <Grid>
+            <ListView Width="350" Height="500"
+                      Background="#423a3a"
+                      ItemContainerStyle="{StaticResource AddMemberListStyle}"
+                      ItemsSource="{Binding AllUsers}"
+                      SelectedItem="{Binding SelectedUser}"
+                      >
+                
+            </ListView>
+        </Grid>
+    </DockPanel>
+</Window>
