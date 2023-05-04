@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\larik\Desktop\study\С#\Новая папка\9.04\BestMessenger\BestMessenger\obj\Debug\
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\
 BestMessenger
 none
 false
 DEBUG;TRACE
-C:\Users\larik\Desktop\study\С#\Новая папка\9.04\BestMessenger\BestMessenger\App.xaml
-9-634756749
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\App.xaml
+101961817246
 
-22-116288767
-17-1332123679
-Infrastructure\Resources\AddMemberListStyle.xaml;Infrastructure\Resources\ChatStyle.xaml;Infrastructure\Resources\CustomTextBox.xaml;Infrastructure\Resources\MemberListStyle.xaml;Infrastructure\Resources\WindowBorderStyle.xaml;Infrastructure\Resources\WindowTopBorderBtnStyle.xaml;Views\AddNewFriendWindow.xaml;Views\Authorization.xaml;Views\MainWindow.xaml;
+25-1720221195
+17-825265840
+Infrastructure\Resources\AddMemberListStyle.xaml;Infrastructure\Resources\ChatStyle.xaml;Infrastructure\Resources\CustomTextBox.xaml;Infrastructure\Resources\MemberListStyle.xaml;Infrastructure\Resources\WindowBorderStyle.xaml;Infrastructure\Resources\WindowTopBorderBtnStyle.xaml;Views\AddNewFriendWindow.xaml;Views\Authorization.xaml;Views\MainWindow.xaml;Views\ProfileWindow.xaml;
 
-False
+True
 

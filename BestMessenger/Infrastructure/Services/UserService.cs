@@ -183,5 +183,19 @@ namespace BestMessenger.Infrastructure.Services
             }
             return authorizationUser;
         }
+        public async Task<bool> ChangeUserAsync(User user)
+        {
+            try
+            {
+                (await _context.Users.FirstAsync(u => u.Id == user.Id)).FirstName = user.FirstName;
+                (await _context.Users.FirstAsync(u => u.Id == user.Id)).LastName = user.LastName;
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
     }
 }

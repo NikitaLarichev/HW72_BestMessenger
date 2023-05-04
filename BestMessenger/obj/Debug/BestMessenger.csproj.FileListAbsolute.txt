@@ -68,3 +68,41 @@ C:\Users\larik\Desktop\study\С#\Новая папка\9.04\BestMessenger\BestMe
 C:\Users\larik\Desktop\study\С#\Новая папка\9.04\BestMessenger\BestMessenger\obj\Debug\BestMessenger.pdb
 C:\Users\larik\Desktop\study\С#\Новая папка\9.04\BestMessenger\BestMessenger\obj\Debug\Views\Authorization.g.cs
 C:\Users\larik\Desktop\study\С#\Новая папка\9.04\BestMessenger\BestMessenger\obj\Debug\Views\Authorization.baml
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\bin\Debug\BestMessenger.exe.config
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\bin\Debug\BestMessenger.exe
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\bin\Debug\BestMessenger.pdb
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\bin\Debug\EntityFramework.dll
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\bin\Debug\FontAwesome.WPF.dll
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\bin\Debug\EntityFramework.xml
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\bin\Debug\FontAwesome.WPF.xml
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\BestMessenger.csproj.AssemblyReference.cache
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\BestMessenger.csproj.SuggestedBindingRedirects.cache
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\Infrastructure\Resources\AddMemberListStyle.baml
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\Infrastructure\Resources\ChatStyle.baml
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\Infrastructure\Resources\CustomTextBox.baml
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\Infrastructure\Resources\MemberListStyle.baml
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\Infrastructure\Resources\WindowBorderStyle.baml
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\Infrastructure\Resources\WindowTopBorderBtnStyle.baml
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\Views\AddNewFriendWindow.g.cs
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\Views\Authorization.g.cs
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\Views\MainWindow.g.cs
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\Views\ProfileWindow.g.cs
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\App.g.cs
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\BestMessenger_MarkupCompile.cache
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\BestMessenger_MarkupCompile.lref
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\App.baml
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\Views\AddNewFriendWindow.baml
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\Views\Authorization.baml
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\Views\MainWindow.baml
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\Views\ProfileWindow.baml
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\BestMessenger.g.resources
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\BestMessenger.Migrations.Initial.resources
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\BestMessenger.Properties.Resources.resources
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\BestMessenger.csproj.GenerateResource.cache
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\BestMessenger.csproj.CoreCompileInputs.cache
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\BestMessenger.csproj.CopyComplete
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\BestMessenger.exe
+C:\Users\larik\Desktop\study\С#\ДЗ\72\Larichev_HW_70\BestMessenger\BestMessenger\obj\Debug\BestMessenger.pdb

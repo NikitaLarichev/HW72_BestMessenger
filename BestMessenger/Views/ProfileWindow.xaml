@@ -1,0 +1,56 @@
+﻿<Window x:Class="BestMessenger.Views.ProfileWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm ="clr-namespace:BestMessenger.ViewModels"
+        xmlns:local="clr-namespace:BestMessenger.Views"        
+        mc:Ignorable="d"
+        Title="ProfileWindow"
+        Height="450" Width="800"
+        AllowsTransparency="false"
+        Background="#212121"
+        WindowStyle="None"
+        ResizeMode="CanResizeWithGrip">
+    <Window.DataContext>
+        <vm:ProfileViewModel x:Name="ProfileViewModel"></vm:ProfileViewModel>
+    </Window.DataContext>
+    <DockPanel>
+         <Border Background="Transparent" DockPanel.Dock="Top">
+            <Grid HorizontalAlignment="Stretch">
+                <Label Content="Best Messenger"
+                       Foreground="White"
+                       FontWeight="Bold"
+                       />
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Right"
+                            >
+                    <Button Style="{StaticResource ResourceKey=MinimizeBtnStyle}"
+                            Command="{Binding WindowMinimizeCommand}"
+                            />
+                    <Button Style="{StaticResource ResourceKey=MaximizeBtnStyle}"
+                            Command="{Binding WindowMaximizeCommand}"
+                            />
+                    <Button Style="{StaticResource ResourceKey=CloseWindowBtnStyle}"
+                            Command="{Binding CloseWindowCommand}"
+                            />
+                </StackPanel>
+            </Grid>
+        </Border>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Application">
+                <MenuItem Header="Close">
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <StackPanel>
+            <Label Margin="0,50,0,0" Width="300" Height="35" FontSize="20" Foreground="White">First Name</Label>
+            <TextBox Width="300" Height="35" FontSize="20" Text="{Binding FirstName}"/>
+            <Label Width="300" Height="35" FontSize="20" Foreground="White">Last Name</Label>
+            <TextBox Width="300" Height="35" FontSize="20" Text="{Binding LastName}"/>
+            <Button Margin="50" Height="50" Width="170" FontSize="20" Command="{Binding SaveChangesCommand}">
+                Save changes
+            </Button>
+        </StackPanel>
+    </DockPanel>
+</Window>
