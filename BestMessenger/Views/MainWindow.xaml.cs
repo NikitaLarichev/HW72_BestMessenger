@@ -21,10 +21,12 @@ namespace BestMessenger.Views
     /// </summary>
     public partial class MainWindow : Window
     {
+        int mainUserId = 0;
         public MainWindow(UserShellForAuthorization authUser)
         {
             InitializeComponent();
             MainViewModel.AuthUser = authUser;
+            mainUserId = authUser.Id;
         }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
@@ -38,6 +40,11 @@ namespace BestMessenger.Views
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             new AddNewFriendWindow().ShowDialog();
+        }
+
+        private void ButtonProfile_Click(object sender, RoutedEventArgs e)
+        {
+            new ProfileWindow(mainUserId).ShowDialog();
         }
     }
 }

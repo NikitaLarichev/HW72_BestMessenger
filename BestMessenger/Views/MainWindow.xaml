@@ -29,15 +29,20 @@
         </Menu>
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="250" />
+                <ColumnDefinition Width="300" />
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Grid Grid.Column="0" Background="#423a3a">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="157*"/>
+                    <ColumnDefinition Width="93*"/>
+                    <ColumnDefinition Width="93*"/>
+                </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="50"/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <UniformGrid Columns="2">
+                <UniformGrid Columns="3" Grid.ColumnSpan="3">
                     <Label Grid.Row="0" 
                        Foreground="White"
                        Content="Friends"
@@ -45,6 +50,15 @@
                        FontWeight="Bold"
                        Margin="15,0,0,0"
                        />
+                    <Button Width="30" Height="30"
+                            Click="ButtonProfile_Click">
+                        <Button.Template>
+                            <ControlTemplate>
+                                <fa:ImageAwesome Icon="DotCircleOutline"
+                                                 Foreground="White"></fa:ImageAwesome>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
                     <Button Width="30" Height="30" 
                             Click="Button_Click">
                         <Button.Template>
@@ -55,13 +69,13 @@
                         </Button.Template>
                     </Button>
                 </UniformGrid>
-               
+
                 <ListView Grid.Row="1"
                           Background="Transparent"
                           BorderThickness="0"
                           ItemContainerStyle="{StaticResource MemberListStyle}"
                           ItemsSource="{Binding Members}"
-                          SelectedItem="{Binding SelectedMember}"
+                          SelectedItem="{Binding SelectedMember}" Grid.ColumnSpan="2"
                           >
                 </ListView>
 
@@ -86,7 +100,7 @@
                                     <Binding Path= "SelectedMember.LastName"></Binding>
                                 </MultiBinding>
                             </TextBlock.Text>
-                          
+
                         </TextBlock>
                         <StackPanel HorizontalAlignment="Right"
                                     Orientation="Horizontal"
